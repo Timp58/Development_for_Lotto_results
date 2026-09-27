@@ -2,8 +2,8 @@ name: Update Lotto CSV
 
 on:
   schedule:
-    # Runs every Saturday at 21:30 UTC (day 6 of the week)
-    - cron: '30 21 * * 6'
+    # Runs every Saturday at 20:47 UTC (day 6 of the week)
+    - cron: '47 20 * * 6'
   workflow_dispatch: # Allows manual trigger anytime from the GitHub Actions tab
 
 permissions:
